@@ -1,0 +1,29 @@
+header nav, footer {
+    
+    display: none;
+}
+
+body {
+
+    width: 100;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+
+}
+
+
+img {
+    
+    max-width: 200px;
+    
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+

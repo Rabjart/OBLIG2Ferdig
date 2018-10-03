@@ -1,0 +1,354 @@
+
+body {
+
+max-width: 90%;    
+margin: 0 auto;
+max-height: 3000px;
+background-color: darkgray;
+background-image: url("../bilder/bakgrunnsbilde.jpg");
+background-image: no-repeat, repeat; 
+background-position: center;
+display: grid;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+
+}
+
+.grid-item {
+    
+    border: 4px solid black;
+    color: darkblue;
+    background-color: WHITE;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.7;
+   
+    
+
+}
+
+
+.grid-navigasjon {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+    padding-top: 40px;
+   
+
+}
+
+
+div.grid-navigasjon-linker {
+
+    border: 4px solid black;
+    background: linear-gradient(90deg, rgba(10, 10, 196, 0.35), rgba(0,0,0,2));
+    text-align: center;
+
+}
+
+
+div.grid-navigasjon-linker a {
+    
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align:center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px black;
+    
+
+}
+
+div.grid-navigasjon-linker:hover {
+
+    background-color:black;
+}
+
+div.grid-navigasjon-linker a:hover {
+
+    color: darkorange;
+
+}
+
+.flex-container-start {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+     
+    
+}
+
+.flex-container-innhold   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 411px;
+    height: 650px;
+    text-align: center;
+    
+  
+}
+.flex-container-innhold1   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 30px;
+    border: 3px solid black;
+    width: 411px;
+    height: 300px;
+    text-align: center;
+    
+  
+}
+
+.flex-container-innhold2   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    border: 3px solid black;
+    width: 411px;
+    height: 300px;
+    text-align: center;
+   
+    
+    
+  
+}
+
+.flex-container-innholdGit   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.flex-container-innholdLayouts   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    width: 800px;
+    height: 700px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.flex-container-innholdLayouts1   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.flex-container-innholdMedia   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.flex-container-Media1   {
+    
+    margin-top: 50px;
+    /*background: linear-gradient(90deg, rgba(10, 10, 196, 1), rgba(0,0,0,2));*/
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.btnStart {
+
+    text-decoration: none;
+    font-size: 40px;
+    border: 6px solid darkblue;
+    color: white;
+    text-shadow: 2px 2px blue;
+
+
+}
+
+
+
+
+
+.flex-container-innhold:hover{
+
+    background-color:darkgray;
+
+}
+
+.video-start {
+
+    align-content: center;
+    width: 350px;
+    height: 200px;
+   
+    
+
+}
+
+.bilde-start {
+
+    width: 300px;
+
+}
+
+.bilde-git {
+
+    width: 600px;
+    height: 400px;
+
+}
+
+.bilde-media {
+
+    width: 200px;
+    height: 150px;
+
+}
+
+.bilde-css {
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: 200px;
+    
+
+}
+
+.bilde-css1 {
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 510px;
+    bottom: 77px;
+    
+    
+
+}
+
+figcaption {
+
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+h2 {
+
+    font-size: 30px;
+
+}
+
+.flex-container-innhold2 a {
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    
+
+}
+
+.flex-container-innhold2 a:hover {
+
+    color: darkorange;
+
+}
+
+
+
+
+
+
+/* Tatt litt footer kode fra W3 schools*/
+footer {
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    line-height: 22px;
+    
+   
+
+
+}
+
+
+    
+   
+
+
+
+
+
+
+
+    
+
+
+
+
